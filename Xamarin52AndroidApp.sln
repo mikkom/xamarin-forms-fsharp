@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "Xamarin52AndroidApp", "Xamarin52AndroidApp\Xamarin52AndroidApp.fsproj", "{6BA5390A-4C4F-4A45-A340-B2EE82C5C519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA5390A-4C4F-4A45-A340-B2EE82C5C519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA5390A-4C4F-4A45-A340-B2EE82C5C519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA5390A-4C4F-4A45-A340-B2EE82C5C519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA5390A-4C4F-4A45-A340-B2EE82C5C519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Xamarin52AndroidApp\Xamarin52AndroidApp.fsproj
+	EndGlobalSection
+EndGlobal
