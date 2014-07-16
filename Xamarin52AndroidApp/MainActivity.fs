@@ -19,12 +19,7 @@ type App () =
 type MainActivity () =
     inherit AndroidActivity ()
 
-    let mutable count:int = 1
-
     override this.OnCreate (bundle) =
-
         base.OnCreate (bundle)
-
         Forms.Init (this, bundle)
-
         this.SetPage <| App.GetMainPage ()

@@ -23,10 +23,10 @@ namespace Xamarin52AndroidApp
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException28a9ece88e4c4c3b9f2e280c017ec3d1 of obj
-    exception ReturnNoneException28a9ece88e4c4c3b9f2e280c017ec3d1
+    exception ReturnExceptionb3dda7f1b78747069c45d3258a09517a of obj
+    exception ReturnNoneExceptionb3dda7f1b78747069c45d3258a09517a
     [<AutoOpen>]
-    module FuncConvertFinalOverload28a9ece88e4c4c3b9f2e280c017ec3d1 =
+    module FuncConvertFinalOverloadb3dda7f1b78747069c45d3258a09517a =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -66,33 +66,13 @@ namespace Xamarin52AndroidApp
     
     and
         
-        (* partial *)Resource_Id () =
-            static do Android.Runtime.ResourceIdManager.UpdateIdValues()
-            // aapt resource value: 0x7f060000
-            static member myButton = 2131099648
-            (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
-
-
-    
-    and
-        
-        (* partial *)Resource_Layout () =
-            static do Android.Runtime.ResourceIdManager.UpdateIdValues()
-            // aapt resource value: 0x7f030000
-            static member Main = 2130903040
-            (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
-
-
-    
-    and
-        
         (* partial *)Resource_String () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
-            // aapt resource value: 0x7f040001
-            static member app_name = 2130968577
+            // aapt resource value: 0x7f030001
+            static member app_name = 2130903041
             
-            // aapt resource value: 0x7f040000
-            static member hello = 2130968576
+            // aapt resource value: 0x7f030000
+            static member hello = 2130903040
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -101,7 +81,7 @@ namespace Xamarin52AndroidApp
         
         (* partial *)Resource_Style () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
-            // aapt resource value: 0x7f050000
-            static member Mono_Android_Theme_Splash = 2131034112
+            // aapt resource value: 0x7f040000
+            static member Mono_Android_Theme_Splash = 2130968576
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
